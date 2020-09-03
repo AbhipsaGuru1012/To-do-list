@@ -88,3 +88,8 @@ input:focus{
     color:gray;
     text-decoration: line-through;
 }
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
